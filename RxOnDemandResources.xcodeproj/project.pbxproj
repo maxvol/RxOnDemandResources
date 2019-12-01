@@ -27,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9445725823945DBD00DC0A1E /* Cartfile.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
+		9445725923945DBE00DC0A1E /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		94B47803201D42410001E0DF /* RxOnDemandResources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxOnDemandResources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B47806201D42410001E0DF /* RxOnDemandResources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxOnDemandResources.h; sourceTree = "<group>"; };
 		94B47807201D42410001E0DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,6 +68,8 @@
 			children = (
 				94B4781D201D427D0001E0DF /* LICENSE */,
 				94B4781E201D427D0001E0DF /* README.md */,
+				9445725923945DBE00DC0A1E /* Cartfile */,
+				9445725823945DBD00DC0A1E /* Cartfile.resolved */,
 				94B47805201D42410001E0DF /* RxOnDemandResources */,
 				94B47810201D42420001E0DF /* RxOnDemandResourcesTests */,
 				94B47804201D42410001E0DF /* Products */,
@@ -233,7 +237,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
 		94B47829201D448B0001E0DF /* Delete Nested Framework(s) */ = {
 			isa = PBXShellScriptBuildPhase;
